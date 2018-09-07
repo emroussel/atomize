@@ -1,4 +1,6 @@
 # Atomize
+[![Version](https://vsmarketplacebadge.apphb.com/version/emroussel.atomize-atom-one-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=emroussel.atomize-atom-one-dark-theme)
+
 A detailed Atom One Dark Theme
 
 <img src="https://raw.githubusercontent.com/emroussel/atomize/master/images/screenshot.png" alt="Screenshot of VS Code with Atomize" />
