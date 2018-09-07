@@ -74,3 +74,6 @@ And if you would like keyword highlighting in comments, I use [TODO Highlight](h
 
 ## Credits
 This theme is heavily inspired from Atom's [One Dark Syntax theme](https://github.com/atom/one-dark-syntax).
+
+## License
+MIT
