@@ -894,8 +894,7 @@
 				"*uri*"
 			],
 			"settings": {
-				"fontStyle": "underline",
-				"foreground": "#51B4C3"
+				"fontStyle": "underline"
 			}
 		},
 		{
