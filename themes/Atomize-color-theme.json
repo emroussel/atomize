@@ -197,7 +197,7 @@
 		"settings.dropdownForeground": "#9DA5B4",
 		"settings.headerForeground": "#D7DAE0",
 		// "settings.inactiveSelectedItemBorder": "",
-		"settings.modifiedItemForeground": "#E0C285",
+		"settings.modifiedItemIndicator": "#E0C285",
 		// "settings.numberInputBackground": "",
 		// "settings.numberInputBorder": "",
 		// "settings.numberInputForeground": "",
