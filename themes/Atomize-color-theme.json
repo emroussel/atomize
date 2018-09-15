@@ -486,7 +486,9 @@
 				"storage.modifier.ts",
 				"storage.type.interface.ts",
 				"keyword.operator.expression.typeof.js",
-				"keyword.operator.expression.typeof.ts"
+				"keyword.operator.expression.typeof.ts",
+				"keyword.operator.expression.delete.js",
+				"keyword.operator.expression.delete.ts"
 			],
 			"settings": {
 				"foreground": "#C678DD"
