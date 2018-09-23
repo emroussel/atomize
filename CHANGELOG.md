@@ -1,6 +1,9 @@
 # Change Log
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.0.7
+- Add VS Code Marketplace icon
+
 ## 1.0.6
 - Make sure all JS keywords are the right color
 

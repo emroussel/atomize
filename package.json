@@ -2,8 +2,9 @@
     "name": "atomize-atom-one-dark-theme",
     "displayName": "Atomize (Atom One Dark theme)",
     "description": "A detailed Atom One Dark Theme",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "publisher": "emroussel",
+    "icon": "images/icon.png",
     "author": {
         "name": "emroussel"
     },
