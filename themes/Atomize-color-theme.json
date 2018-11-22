@@ -118,6 +118,9 @@
 		"extensionButton.prominentForeground": "#FFFFFF",
 		"extensionButton.prominentHoverBackground": "#5B82D4",
 
+		// Git
+		"gitDecoration.ignoredResourceForeground": "#9DA5B499",
+
 		// Inputs
 		"input.background": "#1B1D23",
 		"input.border": "#181A1F",
