@@ -583,8 +583,8 @@
 		{
 			"name": "HTML/XML Attributes",
 			"scope": [
-				"text.html.basic entity.other.attribute-name.html",
-				"text.html.basic entity.other.attribute-name",
+				"entity.other.attribute-name.html",
+				"entity.other.attribute-name",
 				"entity.other.attribute-name.localname.xml",
 				"entity.other.attribute-name.xml"
 			],
