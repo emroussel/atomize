@@ -1,6 +1,11 @@
 # Change Log
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.1.0
+- Add color for ignored files
+- Fix attribute color in derivative html
+- Fix a few small color discrepancies with Atom
+
 ## 1.0.7
 - Add VS Code Marketplace icon
 
