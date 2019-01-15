@@ -1,6 +1,10 @@
 # Change Log
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.2.0
+- Improve Python syntax highlighting support
+- Fix and standardize some settings colors
+
 ## 1.1.1
 - Update description of theme
 - Fix some highlighting colors
