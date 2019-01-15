@@ -361,6 +361,16 @@
 			}
 		},
 		{
+			"name": "Decorators",
+			"scope": [
+				"punctuation.decorator",
+				"punctuation.definition.decorator"
+			],
+			"settings": {
+				"foreground": "#61AFEF"
+			}
+		},
+		{
 			"name": "Function, Special Method",
 			"scope": [
 				"entity.name.function",
@@ -414,7 +424,7 @@
 			}
 		},
 		{
-			"name": "Class, Support",
+			"name": "Class, Types",
 			"scope": [
 				"support.type",
 				"support.class",
@@ -424,6 +434,7 @@
 				"markup.changed.git_gutter",
 				"support.type.sys-types",
 				"entity.other.inherited-class",
+				"entity.name.type.class"
 			],
 			"settings": {
 				"foreground": "#E5C07B"
@@ -469,16 +480,6 @@
 			],
 			"settings": {
 				"foreground": "#E06C75"
-			}
-		},
-		{
-			"name": "JS/TS Primitive Types",
-			"scope": [
-				"support.type.primitive.ts",
-				"support.type.primitive.js"
-			],
-			"settings": {
-				"foreground": "#51B4C3"
 			}
 		},
 		{
@@ -561,6 +562,37 @@
 			],
 			"settings": {
 				"foreground": "#98C379"
+			}
+		},
+		{
+			"name": "Python Variables",
+			"scope": [
+				"source.python",
+				"variable.parameter.function.language.python",
+				"variable.parameter.function-call.python",
+				"meta.function-call.arguments.python",
+				"support.variable.magic.python"
+			],
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{
+			"name": "Python Keywords",
+			"scope": [
+				"keyword.operator.logical.python"
+			],
+			"settings": {
+				"foreground": "#C678DD"
+			}
+		},
+		{
+			"name": "Python Operators",
+			"scope": [
+				"punctuation.separator.period.python"
+			],
+			"settings": {
+				"foreground": "#56B6C2"
 			}
 		},
 		{
