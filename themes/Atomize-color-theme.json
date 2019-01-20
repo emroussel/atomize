@@ -336,7 +336,8 @@
 				"keyword",
 				"storage.type",
 				"storage.modifier",
-				"keyword.operator.expression"
+				"keyword.operator.expression",
+				"keyword.operator.new"
 			],
 			"settings": {
 				"foreground": "#C678DD"
@@ -408,7 +409,8 @@
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
 				"punctuation.definition.string",
-				"punctuation.definition.template-expression"
+				"punctuation.definition.template-expression",
+				"meta.object-literal.key"
 			],
 			"settings": {
 				"foreground": "#98C379"
@@ -428,13 +430,14 @@
 			"scope": [
 				"support.type",
 				"support.class",
-				"support.orther.namespace.use.php",
+				"support.other.namespace.use.php",
 				"meta.use.php",
 				"support.other.namespace.php",
 				"markup.changed.git_gutter",
 				"support.type.sys-types",
 				"entity.other.inherited-class",
-				"entity.name.type.class"
+				"entity.name.type.class",
+				"entity.name.type"
 			],
 			"settings": {
 				"foreground": "#E5C07B"
@@ -486,8 +489,6 @@
 			"name": "JS/TS Keywords",
 			"scope": [
 				"variable.language.default.js",
-				"keyword.operator.new.js",
-				"keyword.operator.new.ts",
 				"storage.modifier.ts",
 				"storage.type.interface.ts"
 			],
@@ -508,8 +509,6 @@
 		{
 			"name": "JS/TS Classes",
 			"scope": [
-				"entity.name.type.class.js",
-				"entity.name.type.class.ts",
 				"entity.other.inherited-class.js",
 				"entity.other.inherited-class.ts",
 				"support.constant.math.js",
@@ -538,7 +537,6 @@
 				"support.variable.object.process.ts",
 				"support.variable.property.process.js",
 				"support.variable.property.process.ts"
-
 			],
 			"settings": {
 				"foreground": "#51B4C3"
@@ -551,17 +549,7 @@
 				"variable.language.super.ts"
 			],
 			"settings": {
-				"foreground": "#61AFEF"
-			}
-		},
-		{
-			"name": "JS/TS Object Key",
-			"scope": [
-				"meta.object-literal.key.js",
-				"meta.object-literal.key.ts"
-			],
-			"settings": {
-				"foreground": "#98C379"
+				"foreground": "#C678DD"
 			}
 		},
 		{
@@ -825,7 +813,7 @@
 				"support.type.graphql"
 			],
 			"settings": {
-				"foreground": "#51B4C3"
+				"foreground": "#E5C07B"
 			}
 		},
 		{
