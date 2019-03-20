@@ -56,7 +56,7 @@
 		// "editor.wordHighlightStrongBorder": "",
 		"editorBracketMatch.background": "#282C34",
 		"editorBracketMatch.border": "#518FFF",
-		// "editorCodeLens.foreground": "",
+		"editorCodeLens.foreground": "#9DA5B4",
 		// "editorCursor.background": "",
 		"editorCursor.foreground": "#528BFF",
 		// "editorError.border": "",
@@ -118,8 +118,16 @@
 		"extensionButton.prominentForeground": "#FFFFFF",
 		"extensionButton.prominentHoverBackground": "#6187D2",
 
+		// Diff editor
+		"diffEditor.insertedTextBackground": "#43D08A22",
+		"diffEditor.removedTextBackground": "#FF634722",
+
 		// Git
 		"gitDecoration.ignoredResourceForeground": "#9DA5B499",
+		"gitDecoration.addedResourceForeground": "#43D08A",
+		"gitDecoration.modifiedResourceForeground": "#E0C285",
+		"gitDecoration.deletedResourceForeground": "#FF6347",
+		"gitlens.trailingLineForegroundColor": "#5C6370",
 
 		// Inputs
 		"input.background": "#1B1D23BF",
