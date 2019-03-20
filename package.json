@@ -1,45 +1,45 @@
 {
-    "name": "atomize-atom-one-dark-theme",
-    "displayName": "Atomize (Atom One Dark theme)",
-    "description": "A detailed and accurate Atom One Dark Theme",
-    "version": "1.2.0",
-    "publisher": "emroussel",
-    "icon": "images/icon.png",
-    "author": {
-        "name": "emroussel"
-    },
-    "engines": {
-        "vscode": "^1.12.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "color",
-        "theme",
-        "atom",
-        "dark",
-        "one dark"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Atomize",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Atomize-color-theme.json"
-            }
-        ]
-    },
-    "galleryBanner": {
+	"name": "atomize-atom-one-dark-theme",
+	"displayName": "Atomize (Atom One Dark theme)",
+	"description": "A detailed and accurate Atom One Dark Theme",
+	"version": "1.2.0",
+	"publisher": "emroussel",
+	"icon": "images/icon.png",
+	"author": {
+		"name": "emroussel"
+	},
+	"engines": {
+		"vscode": "^1.12.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"color",
+		"theme",
+		"atom",
+		"dark",
+		"one dark"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Atomize",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Atomize-color-theme.json"
+			}
+		]
+	},
+	"galleryBanner": {
 		"color": "#282C34",
 		"theme": "dark"
-    },
-    "bugs": {
-        "url": "https://github.com/emroussel/atomize/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/emroussel/atomize.git"
-    },
-    "homepage": "https://github.com/emroussel/atomize/blob/master/README.md"
+	},
+	"bugs": {
+		"url": "https://github.com/emroussel/atomize/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/emroussel/atomize.git"
+	},
+	"homepage": "https://github.com/emroussel/atomize/blob/master/README.md"
 }
