@@ -1,6 +1,12 @@
 # Change Log
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.3.0 (March 20, 2019)
+- Improve git support and add more color contrast in diffs
+- Simplify and fix a few syntax colors
+- Make small wording improvement in README
+- Fix indentation in package.json
+
 ## 1.2.0
 - Improve Python syntax highlighting support
 - Fix and standardize some settings colors
