@@ -8,13 +8,13 @@ A detailed and accurate Atom One Dark Theme
 ## Contribution
 I have mostly used this theme with JavaScript and other web technologies.
 
-If you'd like me to add support for other languages, or notice a bug or discrepancy with Atom's One Dark theme, feel free to open an issue or pull request on this repo.
+If you'd like me to add support for other languages, or notice a bug/discrepancy with Atom's One Dark theme, feel free to open an issue or pull request on this repo.
 
 ## Motivation
 I love the UI and UX of Atom as well as the speed and reliability of VS Code. After looking for a while, I couldn't find any VS Code theme that accurately replicated Atom's One Dark UI, so I made this one.
 
 ## Next steps
-Here are more settings I use to make VS Code more minimalistic, so that I can focus on what's important. It also makes the experience more similar to Atom.
+Here are some settings I use to make VS Code more minimalistic, so that I can focus on what's important. It also makes the experience more similar to Atom.
 
 ```json
 {
