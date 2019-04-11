@@ -5,7 +5,7 @@ A detailed and accurate Atom One Dark Theme
 
 <img src="https://raw.githubusercontent.com/emroussel/atomize/master/images/screenshot.png" alt="Screenshot of VS Code with Atomize" />
 
-To get the icons in the screenshot above and and an experience closer to Atom, check out my [Atom Icons theme](https://github.com/emroussel/atom-icons).
+To get the icons in the screenshot above and an experience closer to Atom, check out my [Atom Icons theme](https://github.com/emroussel/atom-icons).
 
 ## Contribution
 I have mostly used this theme with JavaScript and other web technologies.
