@@ -166,7 +166,7 @@
 		"notificationToast.border": "#181A1F",
 		"notifications.background": "#21252B",
 		"notifications.border": "#181A1F",
-		"notifications.foreground": "#D7DAE0",
+		// "notifications.foreground": "",
 
 		// Panel
 		"panel.background": "#21252B",
