@@ -263,8 +263,8 @@
 		"tab.unfocusedInactiveForeground": "#6B727E",
 
 		// Text
-		// "textBlockQuote.background": "",
-		// "textBlockQuote.border": "",
+		"textBlockQuote.background": "#3A3F4BA6",
+		"textBlockQuote.border": "#6B727E",
 		"textCodeBlock.background": "#32373F",
 		"textLink.activeForeground": "#769FEF",
 		"textLink.foreground": "#6494ED",
