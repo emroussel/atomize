@@ -1,6 +1,13 @@
 # Change Log
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.3.1 (April 13, 2019)
+- Improve status bar colors for debugging and prominent items
+- Add link to atom icons in README
+- Compress screenshot in README
+- Make foreground color of notifications consistent with lists
+- Improve block quote colors in markdown
+
 ## 1.3.0 (March 20, 2019)
 - Improve git support and add more color contrast in diffs
 - Simplify and fix a few syntax colors
