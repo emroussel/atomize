@@ -157,6 +157,9 @@
 		"list.inactiveSelectionBackground": "#3A3F4B",
 		"list.inactiveSelectionForeground": "#D7DAE0",
 		// "list.warningForeground": "",
+		"listFilterWidget.background": "#282C34",
+		"listFilterWidget.outline": "#181A1F",
+		"listFilterWidget.noMatchesOutline": "#FF6347",
 
 		// Notifications
 		"notificationCenter.border": "#181A1F",
