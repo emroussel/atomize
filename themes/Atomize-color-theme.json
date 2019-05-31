@@ -1157,7 +1157,8 @@
 		{
 			"name": "Markdown - List punctuation",
 			"scope": [
-				"beginning.punctuation.definition.list.markdown"
+				"beginning.punctuation.definition.list.markdown",
+				"punctuation.definition.list.begin.markdown"
 			],
 			"settings": {
 				"foreground": "#E06C75"
