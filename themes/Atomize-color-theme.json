@@ -1165,6 +1165,17 @@
 			}
 		},
 		{
+			"name": "TOML - Key",
+			"scope": [
+				"keyword.key.toml",
+				"entity.other.attribute-name.table.toml",
+				"entity.other.attribute-name.table.array.toml"
+			],
+			"settings": {
+				"foreground": "#E06C75"
+			}
+		},
+		{
 			"scope": "token.info-token",
 			"settings": {
 				"foreground": "#33A0FF"
