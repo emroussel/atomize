@@ -31,6 +31,12 @@
 		"debugExceptionWidget.background": "#252830",
 		"debugExceptionWidget.border": "#181A1F",
 
+		// Dropdown
+		"dropdown.background": "#1E2127",
+		"dropdown.listBackground": "#1E2127",
+		"dropdown.border": "#181A1F",
+		"dropdown.foreground": "#D7DAE0",
+
 		// Editor
 		"editor.background": "#282C34",
 		"editor.findMatchBackground": "#314166",
