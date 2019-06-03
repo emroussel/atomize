@@ -1,6 +1,16 @@
 # Change Log
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.4.0 (June 2, 2019)
+- Add listFilterWidget colors
+- Fix color of peek view for errors
+- Add right color on warning swiggles
+- Fix colors of input validations
+- Color numbered lists in markdown
+- Add support for TOML
+- Clean up colors in peek view
+- Add dropdown colors for Windows
+
 ## 1.3.1 (April 13, 2019)
 - Improve status bar colors for debugging and prominent items
 - Add link to atom icons in README

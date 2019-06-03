@@ -2,7 +2,7 @@
 	"name": "atomize-atom-one-dark-theme",
 	"displayName": "Atomize (Atom One Dark theme)",
 	"description": "A detailed and accurate Atom One Dark Theme",
-	"version": "1.3.1",
+	"version": "1.4.0",
 	"publisher": "emroussel",
 	"icon": "images/icon.png",
 	"author": {
@@ -41,5 +41,10 @@
 		"type": "git",
 		"url": "https://github.com/emroussel/atomize.git"
 	},
-	"homepage": "https://github.com/emroussel/atomize/blob/master/README.md"
+	"homepage": "https://github.com/emroussel/atomize/blob/master/README.md",
+	"__metadata": {
+		"id": "b33f4b00-b7b4-4259-a263-eab2d86ac79b",
+		"publisherDisplayName": "Emmanuel Roussel",
+		"publisherId": "ef208bcb-6f04-4154-9969-7fdfdf7c525f"
+	}
 }
