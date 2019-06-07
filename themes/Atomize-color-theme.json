@@ -256,6 +256,8 @@
 		"statusBarItem.hoverBackground": "#2F333D",
 		"statusBarItem.prominentBackground": "#21252B",
 		"statusBarItem.prominentHoverBackground": "#2F333D",
+		"statusBarItem.remoteBackground": "#21252B",
+		"statusBarItem.remoteForeground": "#9DA5B4",
 
 		// Tabs
 		"tab.activeBackground": "#282C34",
