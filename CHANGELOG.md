@@ -1,6 +1,9 @@
 # Change Log
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.4.1 (July 12, 2019)
+- Make remote development icon consistent with other icons
+
 ## 1.4.0 (June 2, 2019)
 - Add listFilterWidget colors
 - Fix color of peek view for errors
