@@ -20,6 +20,7 @@ Here are some settings I use to make VS Code more minimalistic, so that I can fo
 
 ```json
 {
+  "breadcrumbs.enabled": false,
   "editor.cursorBlinking": "blink",
   "editor.hideCursorInOverviewRuler": true,
   "editor.minimap.enabled": false,
@@ -33,7 +34,7 @@ Here are some settings I use to make VS Code more minimalistic, so that I can fo
   "workbench.activityBar.visible": false,
   "workbench.editor.showIcons": false,
   "workbench.startupEditor": "none",
-  "workbench.statusBar.feedback.visible": false
+  "workbench.tree.renderIndentGuides": "none"
 }
 ```
 
