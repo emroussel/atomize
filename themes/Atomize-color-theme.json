@@ -415,7 +415,10 @@
 				"constant.character",
 				"constant.escape",
 				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other",
+				"meta.embedded.expression",
+				"meta.object.member",
+				"meta.var.expr"
 			],
 			"settings": {
 				"foreground": "#D19A66"
@@ -491,7 +494,9 @@
 				"keyword.operator.type.annotation.ts",
 				"keyword.operator.type.annotation.js",
 				"meta.brace.square.js",
-				"meta.brace.square.ts"
+				"meta.brace.square.ts",
+				"meta.brace.round.js",
+				"meta.brace.round.ts"
 			],
 			"settings": {
 				"foreground": "#ABB2BF"
