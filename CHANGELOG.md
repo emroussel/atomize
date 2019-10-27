@@ -2,6 +2,14 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.4.2 (October 27, 2019)
+
+- Format package.json with prettier
+- Format CHANGELOG with prettier
+- Add new screenshot to match VS Code's new icons
+- Fix colors of constants on built in classes
+- Add breadcrumbs and indent guide settings to README
+
 ## 1.4.1 (July 12, 2019)
 
 - Make remote development icon consistent with other icons
