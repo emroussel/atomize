@@ -828,7 +828,8 @@
 			"name": "GraphQL Operator",
 			"scope": [
 				"keyword.operator.spread.graphql",
-				"keyword.operator.nulltype.graphql"
+				"keyword.operator.nulltype.graphql",
+				"meta.selectionset.graphql"
 			],
 			"settings": {
 				"foreground": "#56B6C2"
@@ -841,6 +842,18 @@
 			],
 			"settings": {
 				"foreground": "#E5C07B"
+			}
+		},
+		{
+			"name": "GraphQL Brace",
+			"scope": [
+				"meta.brace.round.graphql",
+				"meta.brace.round.directive.graphql",
+				"meta.brace.square.graphql",
+				"meta.embedded.block.graphql"
+			],
+			"settings": {
+				"foreground": "#ABB2BF"
 			}
 		},
 		{
