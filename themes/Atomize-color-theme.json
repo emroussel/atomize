@@ -69,7 +69,7 @@
 		"editorError.foreground": "#FF6347",
 		"editorGroup.border": "#181A1F",
 		"editorGroup.dropBackground": "#4B4B4B4D",
-		"editorGroup.emptyBackground": "#21252B",
+		"editorGroup.emptyBackground": "#282C34",
 		// "editorGroup.focusedEmptyBorder": "",
 		"editorGroupHeader.noTabsBackground": "#21252B",
 		"editorGroupHeader.tabsBackground": "#21252B",
