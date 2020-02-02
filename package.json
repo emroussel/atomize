@@ -35,8 +35,8 @@
     "theme": "dark"
   },
   "scripts": {
-    "fix": "prettier {themes,.}/*.{json,md} --write",
-    "lint": "prettier {themes,.}/*.{json,md} --check"
+    "fix": "prettier '**/*.{json,md,yml}' --write",
+    "lint": "prettier '**/*.{json,md,yml}' --check"
   },
   "husky": {
     "hooks": {
@@ -45,7 +45,7 @@
     }
   },
   "lint-staged": {
-    "{themes,.}/*.{json,md}": "npm run fix"
+    "**/*.{json,md,yml}": "npm run fix"
   },
   "bugs": {
     "url": "https://github.com/emroussel/atomize/issues"
