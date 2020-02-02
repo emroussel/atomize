@@ -1004,15 +1004,6 @@
 			}
 		},
 		{
-			"name": "JSON boolean",
-			"scope": [
-				"constant.language.json"
-			],
-			"settings": {
-				"foreground": "#56B6C2"
-			}
-		},
-		{
 			"name": "Markdown - Plain",
 			"scope": [
 				"text.html.markdown",
