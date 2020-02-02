@@ -2,6 +2,14 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.4.3 (February 2, 2020)
+
+- Change color of empty editor for better contrast
+- Fix some GraphQL query syntax
+- Make booleans in JSON same color as in JS
+- Add scripts to format json and md with prettier
+- Add Github action workflow to lint on push and PRs
+
 ## 1.4.2 (October 27, 2019)
 
 - Format package.json with prettier
