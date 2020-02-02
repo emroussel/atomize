@@ -34,6 +34,19 @@
     "color": "#282C34",
     "theme": "dark"
   },
+  "scripts": {
+    "fix": "prettier {themes,.}/*.{json,md} --write",
+    "lint": "prettier {themes,.}/*.{json,md} --check"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run lint"
+    }
+  },
+  "lint-staged": {
+    "{themes,.}/*.{json,md}": "npm run fix"
+  },
   "bugs": {
     "url": "https://github.com/emroussel/atomize/issues"
   },
@@ -42,6 +55,11 @@
     "url": "https://github.com/emroussel/atomize.git"
   },
   "homepage": "https://github.com/emroussel/atomize/blob/master/README.md",
+  "devDependencies": {
+    "husky": "4.2.1",
+    "lint-staged": "10.0.7",
+    "prettier": "1.19.1"
+  },
   "__metadata": {
     "id": "b33f4b00-b7b4-4259-a263-eab2d86ac79b",
     "publisherDisplayName": "Emmanuel Roussel",
