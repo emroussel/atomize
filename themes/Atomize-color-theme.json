@@ -20,7 +20,7 @@
     "focusBorder": "#5387F5",
     "foreground": "#ABB2BF",
     "selection.background": "#9DA5B4",
-    "widget.shadow": "#FFFFFF00",
+    "widget.shadow": "#181A1FFF",
 
     // Button
     "button.background": "#4D78CC",
