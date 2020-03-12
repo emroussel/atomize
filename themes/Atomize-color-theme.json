@@ -812,7 +812,8 @@
         "meta.brace.round.graphql",
         "meta.brace.round.directive.graphql",
         "meta.brace.square.graphql",
-        "meta.embedded.block.graphql"
+        "meta.embedded.block.graphql",
+        "meta.brace.curly.graphql"
       ],
       "settings": {
         "foreground": "#ABB2BF"
