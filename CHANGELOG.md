@@ -2,6 +2,13 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.4.4 (March 12, 2020)
+
+- Add shadow on widgets for better contrast
+- Make color of optional chaining operator same as dot
+- Fix nested curly braces color in graphql
+- Add note about turning off semantic highlighting
+
 ## 1.4.3 (February 2, 2020)
 
 - Change color of empty editor for better contrast
