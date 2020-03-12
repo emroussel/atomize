@@ -509,7 +509,12 @@
     },
     {
       "name": "JS/TS Operators",
-      "scope": ["punctuation.accessor.js", "punctuation.accessor.ts"],
+      "scope": [
+        "punctuation.accessor.js",
+        "punctuation.accessor.ts",
+        "punctuation.accessor.optional.js",
+        "punctuation.accessor.optional.ts"
+      ],
       "settings": {
         "foreground": "#56B6C2"
       }
