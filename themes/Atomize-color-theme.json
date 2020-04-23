@@ -371,7 +371,9 @@
         "punctuation.definition.tag.end.html",
         "punctuation.section.embedded",
         "keyword.other.template",
-        "keyword.other.substitution"
+        "keyword.other.substitution",
+        "meta.brace",
+        "keyword.operator.type.annotation"
       ],
       "settings": {
         "foreground": "#ABB2BF"
@@ -461,8 +463,17 @@
       "name": "Sub-methods",
       "scope": [
         "entity.name.module.js",
+        "entity.name.module.jsx",
+        "entity.name.module.ts",
+        "entity.name.module.tsx",
         "variable.import.parameter.js",
-        "variable.other.class.js"
+        "variable.import.parameter.jsx",
+        "variable.import.parameter.ts",
+        "variable.import.parameter.tsx",
+        "variable.other.class.js",
+        "variable.other.class.jsx",
+        "variable.other.class.ts",
+        "variable.other.class.tsx"
       ],
       "settings": {
         "foreground": "#E06C75"
@@ -470,28 +481,19 @@
     },
     {
       "name": "JS default",
-      "scope": ["source.js"],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "name": "JS/TS Punctuation",
-      "scope": [
-        "keyword.operator.type.annotation.ts",
-        "keyword.operator.type.annotation.js",
-        "meta.brace.square.js",
-        "meta.brace.square.ts",
-        "meta.brace.round.js",
-        "meta.brace.round.ts"
-      ],
+      "scope": ["source.js", "source.jsx", "source.ts", "source.tsx"],
       "settings": {
         "foreground": "#ABB2BF"
       }
     },
     {
       "name": "JS/TS Variables",
-      "scope": ["variable.other.constant.js", "variable.other.constant.ts"],
+      "scope": [
+        "variable.other.constant.js",
+        "variable.other.constant.jsx",
+        "variable.other.constant.ts",
+        "variable.other.constant.tsx"
+      ],
       "settings": {
         "foreground": "#E06C75"
       }
@@ -500,8 +502,13 @@
       "name": "JS/TS Keywords",
       "scope": [
         "variable.language.default.js",
+        "variable.language.default.jsx",
+        "variable.language.default.ts",
+        "variable.language.default.tsx",
         "storage.modifier.ts",
-        "storage.type.interface.ts"
+        "storage.modifier.tsx",
+        "storage.type.interface.ts",
+        "storage.type.interface.tsx"
       ],
       "settings": {
         "foreground": "#C678DD"
@@ -511,9 +518,13 @@
       "name": "JS/TS Operators",
       "scope": [
         "punctuation.accessor.js",
+        "punctuation.accessor.jsx",
         "punctuation.accessor.ts",
+        "punctuation.accessor.tsx",
         "punctuation.accessor.optional.js",
-        "punctuation.accessor.optional.ts"
+        "punctuation.accessor.optional.jsx",
+        "punctuation.accessor.optional.ts",
+        "punctuation.accessor.optional.tsx"
       ],
       "settings": {
         "foreground": "#56B6C2"
@@ -523,11 +534,17 @@
       "name": "JS/TS Classes",
       "scope": [
         "entity.other.inherited-class.js",
+        "entity.other.inherited-class.jsx",
         "entity.other.inherited-class.ts",
+        "entity.other.inherited-class.tsx",
         "support.constant.math.js",
+        "support.constant.math.jsx",
         "support.constant.math.ts",
+        "support.constant.math.tsx",
         "support.constant.json.js",
-        "support.constant.json.ts"
+        "support.constant.json.jsx",
+        "support.constant.json.ts",
+        "support.constant.json.tsx"
       ],
       "settings": {
         "foreground": "#E5C07B"
@@ -537,19 +554,33 @@
       "name": "JS/TS Console + DOM",
       "scope": [
         "entity.name.type.object.console.js",
+        "entity.name.type.object.console.jsx",
         "entity.name.type.object.console.ts",
+        "entity.name.type.object.console.tsx",
         "support.function.console.js",
+        "support.function.console.jsx",
         "support.function.console.ts",
+        "support.function.console.tsx",
         "support.class.console.js",
+        "support.class.console.jsx",
         "support.class.console.ts",
+        "support.class.console.tsx",
         "support.variable.dom.js",
+        "support.variable.dom.jsx",
         "support.variable.dom.ts",
+        "support.variable.dom.tsx",
         "support.type.object.module.js",
+        "support.type.object.module.jsx",
         "support.type.object.module.ts",
+        "support.type.object.module.tsx",
         "support.variable.object.process.js",
+        "support.variable.object.process.jsx",
         "support.variable.object.process.ts",
+        "support.variable.object.process.tsx",
         "support.variable.property.process.js",
-        "support.variable.property.process.ts"
+        "support.variable.property.process.jsx",
+        "support.variable.property.process.ts",
+        "support.variable.property.process.tsx"
       ],
       "settings": {
         "foreground": "#51B4C3"
@@ -557,7 +588,12 @@
     },
     {
       "name": "JS/TS Functions",
-      "scope": ["variable.language.super.js", "variable.language.super.ts"],
+      "scope": [
+        "variable.language.super.js",
+        "variable.language.super.jsx",
+        "variable.language.super.ts",
+        "variable.language.super.tsx"
+      ],
       "settings": {
         "foreground": "#C678DD"
       }
@@ -591,7 +627,12 @@
     },
     {
       "name": "JSX Attribtue",
-      "scope": ["entity.other.attribute-name.js"],
+      "scope": [
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.ts",
+        "entity.other.attribute-name.tsx"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#D19A66"
@@ -601,7 +642,13 @@
       "name": "JSX Brackets",
       "scope": [
         "punctuation.section.embedded.begin.js",
-        "punctuation.section.embedded.end.js"
+        "punctuation.section.embedded.begin.jsx",
+        "punctuation.section.embedded.begin.ts",
+        "punctuation.section.embedded.begin.tsx",
+        "punctuation.section.embedded.end.js",
+        "punctuation.section.embedded.end.jsx",
+        "punctuation.section.embedded.end.ts",
+        "punctuation.section.embedded.end.tsx"
       ],
       "settings": {
         "foreground": "#BE5046"
@@ -876,7 +923,13 @@
     },
     {
       "name": "Regular Expressions Keyword",
-      "scope": ["keyword.control.anchor.regexp", "keyword.other.js"],
+      "scope": [
+        "keyword.control.anchor.regexp",
+        "keyword.other.js",
+        "keyword.other.jsx",
+        "keyword.other.ts",
+        "keyword.other.tsx"
+      ],
       "settings": {
         "foreground": "#C678DD"
       }
