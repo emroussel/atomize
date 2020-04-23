@@ -2,6 +2,12 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.4.5 (April 22, 2020)
+
+- Add much better support for .jsx and .tsx files
+- Fix color of commas in graphql arguments
+- Add git colors to overview ruler
+
 ## 1.4.4 (March 12, 2020)
 
 - Add shadow on widgets for better contrast
