@@ -56,9 +56,9 @@
   },
   "homepage": "https://github.com/emroussel/atomize/blob/master/README.md",
   "devDependencies": {
-    "husky": "4.2.1",
-    "lint-staged": "10.0.7",
-    "prettier": "1.19.1"
+    "husky": "4.2.5",
+    "lint-staged": "10.2.11",
+    "prettier": "2.0.5"
   },
   "__metadata": {
     "id": "b33f4b00-b7b4-4259-a263-eab2d86ac79b",
