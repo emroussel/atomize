@@ -32,11 +32,13 @@ Here are some settings I use to make VS Code more minimalistic, so that I can fo
 {
   "breadcrumbs.enabled": false,
   "editor.cursorBlinking": "blink",
+  "editor.folding": false,
   "editor.hideCursorInOverviewRuler": true,
   "editor.minimap.enabled": false,
   "editor.occurrencesHighlight": false,
   "editor.renderIndentGuides": false,
   "editor.roundedSelection": false,
+  "editor.selectionHighlight": false,
   "editor.scrollBeyondLastLine": false,
   "explorer.decorations.colors": false,
   "explorer.openEditors.visible": 0,
@@ -58,7 +60,7 @@ I also use [Subtle Match Brackets](https://marketplace.visualstudio.com/items?it
 
 ```json
 {
-  "editor.matchBrackets": false,
+  "editor.matchBrackets": "never",
   "subtleBrackets.style": {
     "borderWidth": "1px",
     "borderColor": "#528BFF"
