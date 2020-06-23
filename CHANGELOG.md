@@ -2,6 +2,13 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.5.0 (June 23, 2020)
+
+- Add selection highlight colors
+- Update recommended vscode settings in README
+- Update dev dependencies
+- Add activityBar.dropBorder and panel.dropBorder
+
 ## 1.4.5 (April 22, 2020)
 
 - Add much better support for .jsx and .tsx files
