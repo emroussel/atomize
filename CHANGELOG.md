@@ -2,6 +2,10 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.5.1 (August 3, 2020)
+
+- Fix color of C++ directives
+
 ## 1.5.0 (June 23, 2020)
 
 - Add selection highlight colors
