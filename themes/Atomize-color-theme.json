@@ -875,6 +875,16 @@
       }
     },
     {
+      "name": "C++ Keywords",
+      "scope": [
+        "punctuation.definition.directive.cpp",
+        "keyword.other.using.directive.cpp"
+      ],
+      "settings": {
+        "foreground": "#C678DD"
+      }
+    },
+    {
       "name": "Inserted",
       "scope": ["markup.inserted"],
       "settings": {
