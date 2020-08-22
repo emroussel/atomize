@@ -897,6 +897,13 @@
       }
     },
     {
+      "name": "C++ Properties",
+      "scope": ["variable.other.property"],
+      "settings": {
+        "foreground": "#BE5046"
+      }
+    },
+    {
       "name": "Inserted",
       "scope": ["markup.inserted"],
       "settings": {
