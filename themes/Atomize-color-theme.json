@@ -885,6 +885,18 @@
       }
     },
     {
+      "name": "C++ Namespaces",
+      "scope": [
+        "entity.name.scope-resolution.parameter.cpp",
+        "entity.name.scope-resolution.cpp",
+        "entity.name.scope-resolution.function.call.cpp",
+        "entity.name.namespace"
+      ],
+      "settings": {
+        "foreground": "#E5C07B"
+      }
+    },
+    {
       "name": "Inserted",
       "scope": ["markup.inserted"],
       "settings": {
