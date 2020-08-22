@@ -890,6 +890,7 @@
         "entity.name.scope-resolution.parameter.cpp",
         "entity.name.scope-resolution.cpp",
         "entity.name.scope-resolution.function.call.cpp",
+        "entity.name.scope-resolution.template.call.cpp",
         "entity.name.namespace"
       ],
       "settings": {
