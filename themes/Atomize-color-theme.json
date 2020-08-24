@@ -456,11 +456,7 @@
         "entity.other.inherited-class",
         "entity.name.type.class",
         "entity.name.type",
-        "entity.name.namespace",
-        "entity.name.scope-resolution.parameter.cpp",
-        "entity.name.scope-resolution.cpp",
-        "entity.name.scope-resolution.function.call.cpp",
-        "entity.name.scope-resolution.template.call.cpp"
+        "entity.name.namespace"
       ],
       "settings": {
         "foreground": "#E5C07B"
@@ -887,6 +883,18 @@
       ],
       "settings": {
         "foreground": "#C678DD"
+      }
+    },
+    {
+      "name": "C++ Scopes",
+      "scope": [
+        "entity.name.scope-resolution.parameter.cpp",
+        "entity.name.scope-resolution.cpp",
+        "entity.name.scope-resolution.function.call.cpp",
+        "entity.name.scope-resolution.template.call.cpp"
+      ],
+      "settings": {
+        "foreground": "#E5C07B"
       }
     },
     {
