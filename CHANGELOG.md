@@ -2,6 +2,10 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.5.2 (August 24, 2020)
+
+- Add highlighting for C++ namespaces and properties
+
 ## 1.5.1 (August 3, 2020)
 
 - Fix color of C++ directives
