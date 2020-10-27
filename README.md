@@ -2,7 +2,7 @@
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/emroussel.atomize-atom-one-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=emroussel.atomize-atom-one-dark-theme)
 
-A detailed and accurate Atom One Dark Theme
+A detailed and accurate Atom One Dark theme
 
 <img src="https://raw.githubusercontent.com/emroussel/atomize/master/images/screenshot.png" alt="Screenshot of VS Code with Atomize" />
 
@@ -22,7 +22,7 @@ If you'd like me to add support for other languages, or notice a bug/discrepancy
 
 ## Motivation
 
-I love the UI and UX of Atom as well as the speed and reliability of VS Code. After looking for a while, I couldn't find any VS Code theme that accurately replicated Atom's One Dark UI, so I made this one.
+I've always loved the UI and UX of Atom, but prefer the speed and reliability of VS Code. After looking for a while, I couldn't find any VS Code theme that accurately replicated Atom One Dark's interface and syntax highlighting, so I made this one.
 
 ## Next steps
 
