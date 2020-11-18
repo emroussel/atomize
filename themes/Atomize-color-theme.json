@@ -335,7 +335,8 @@
       "scope": [
         "constant.other",
         "variable.other.constant",
-        "variable.other.constant.property"
+        "variable.other.constant.property",
+        "variable.other.enummember"
       ],
       "settings": {
         "foreground": "#D19A66"
