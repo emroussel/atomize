@@ -2,6 +2,11 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.5.3 (November 18, 2020)
+
+- Mark enums as constants
+- Update wording in README
+
 ## 1.5.2 (August 24, 2020)
 
 - Add highlighting for C++ namespaces and properties
