@@ -158,6 +158,7 @@
     // "list.dropBackground": "",
     "list.errorForeground": "#FF6347",
     "list.focusBackground": "#3A3F4B",
+    "quickInput.list.focusBackground": "#3A3F4B",
     "list.focusForeground": "#D7DAE0",
     "list.highlightForeground": "#739CF5",
     "list.hoverBackground": "#2F333D",
