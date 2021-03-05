@@ -2,6 +2,10 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.5.4 (March 5, 2021)
+
+- Add new quickInput.list.focusBackground color
+
 ## 1.5.3 (November 18, 2020)
 
 - Mark enums as constants
