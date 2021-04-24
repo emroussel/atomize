@@ -2,6 +2,10 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 1.5.5 (April 24, 2021)
+
+- Fix list drop color and remove other deprecated drop keys
+
 ## 1.5.4 (March 5, 2021)
 
 - Add new quickInput.list.focusBackground color
