@@ -5,7 +5,6 @@
     // Activity bar
     "activityBar.background": "#21252B",
     "activityBar.border": "#181A1F",
-    "activityBar.dropBackground": "#4D78CC",
     "activityBar.dropBorder": "#D6D9DF",
     "activityBar.foreground": "#D6D9DF",
     "activityBarBadge.background": "#4D78CC",
@@ -155,7 +154,7 @@
     // Lists
     "list.activeSelectionBackground": "#4D78CC",
     "list.activeSelectionForeground": "#FFFFFF",
-    // "list.dropBackground": "",
+    "list.dropBackground": "#2F333D",
     "list.errorForeground": "#FF6347",
     "list.focusBackground": "#3A3F4B",
     "quickInput.list.focusBackground": "#3A3F4B",
@@ -185,7 +184,6 @@
     // Panel
     "panel.background": "#21252B",
     "panel.border": "#181A1F",
-    "panel.dropBackground": "#4B4B4B4D",
     "panel.dropBorder": "#4B4B4B4D",
     "panelTitle.activeBorder": "#5387F5",
     "panelTitle.activeForeground": "#D7DAE0",
