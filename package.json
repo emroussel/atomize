@@ -1,12 +1,12 @@
 {
-  "name": "atomize-atom-one-dark-theme",
-  "displayName": "Atomize (Atom One Dark theme)",
+  "name": "atomize-fork",
+  "displayName": "Atomize Fork (Atom One Dark theme)",
   "description": "A detailed and accurate Atom One Dark Theme",
-  "version": "1.5.5",
-  "publisher": "emroussel",
+  "version": "1.0.0",
+  "publisher": "anpleenko",
   "icon": "images/icon.png",
   "author": {
-    "name": "emroussel"
+    "name": "anpleenko"
   },
   "engines": {
     "vscode": "^1.12.0"
@@ -59,10 +59,5 @@
     "husky": "4.2.5",
     "lint-staged": "10.2.11",
     "prettier": "2.0.5"
-  },
-  "__metadata": {
-    "id": "b33f4b00-b7b4-4259-a263-eab2d86ac79b",
-    "publisherDisplayName": "Emmanuel Roussel",
-    "publisherId": "ef208bcb-6f04-4154-9969-7fdfdf7c525f"
   }
 }
