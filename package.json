@@ -24,7 +24,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Atomize",
+        "label": "Atomize fork",
         "uiTheme": "vs-dark",
         "path": "./themes/Atomize-color-theme.json"
       }
