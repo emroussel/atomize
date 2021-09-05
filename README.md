@@ -56,42 +56,6 @@ Here are some settings I use to make VS Code more minimalistic, so that I can fo
 - Show search: ⇧+ ⌘ + F
 - Show extensions: ⇧+ ⌘ + X
 
-I also use [Subtle Match Brackets](https://marketplace.visualstudio.com/items?itemName=rafamel.subtle-brackets) instead of the default bracket matcher to get a better experience:
-
-```json
-{
-  "editor.matchBrackets": "never",
-  "subtleBrackets.style": {
-    "borderWidth": "1px",
-    "borderColor": "#528BFF"
-  }
-}
-```
-
-And if you would like keyword highlighting in comments, I use [TODO Highlight](https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight) with these settings to get Atom's colors:
-
-```json
-{
-  "todohighlight.keywords": [
-    {
-      "text": "TODO:",
-      "color": "#C678DD",
-      "backgroundColor": "transparent"
-    },
-    {
-      "text": "NOTE:",
-      "color": "#C678DD",
-      "backgroundColor": "transparent"
-    },
-    {
-      "text": "FIXME:",
-      "color": "#C678DD",
-      "backgroundColor": "transparent"
-    }
-  ]
-}
-```
-
 ## Credits
 
 This theme is heavily inspired from Atom's [One Dark Syntax theme](https://github.com/atom/one-dark-syntax).
