@@ -1,6 +1,6 @@
-# Atomize
+# Atomize fork
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/emroussel.atomize-atom-one-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=emroussel.atomize-atom-one-dark-theme)
+[![Version](https://vsmarketplacebadge.apphb.com/version/anpleenko.atomize-fork.svg)](https://marketplace.visualstudio.com/items?itemName=anpleenko.atomize-fork)
 
 A detailed and accurate Atom One Dark theme
 
