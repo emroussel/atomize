@@ -48,13 +48,13 @@
     "**/*.{json,md,yml}": "npm run fix"
   },
   "bugs": {
-    "url": "https://github.com/emroussel/atomize/issues"
+    "url": "https://github.com/anpleenko/atomize/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/emroussel/atomize.git"
+    "url": "https://github.com/anpleenko/atomize.git"
   },
-  "homepage": "https://github.com/emroussel/atomize/blob/master/README.md",
+  "homepage": "https://github.com/anpleenko/atomize/blob/master/README.md",
   "devDependencies": {
     "husky": "4.2.5",
     "lint-staged": "10.2.11",
