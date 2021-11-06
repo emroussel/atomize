@@ -1,6 +1,7 @@
 .github/**
 .vscode/**
 .vscode-test/**
+.husky/**
 .gitignore
 vsc-extension-quickstart.md
 *.log

@@ -366,13 +366,7 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": [
-        "keyword",
-        "storage.type",
-        "storage.modifier",
-        "keyword.operator.expression",
-        "keyword.operator.new"
-      ],
+      "scope": ["keyword", "storage.type", "storage.modifier", "keyword.operator.expression", "keyword.operator.new"],
       "settings": {
         "foreground": "#C678DD"
       }
@@ -713,12 +707,7 @@
     },
     {
       "name": "CSS Tags",
-      "scope": [
-        "entity.name.tag.css",
-        "entity.name.tag.scss",
-        "entity.name.tag.sass",
-        "entity.name.tag.less"
-      ],
+      "scope": ["entity.name.tag.css", "entity.name.tag.scss", "entity.name.tag.sass", "entity.name.tag.less"],
       "settings": {
         "foreground": "#E06C75"
       }
@@ -861,11 +850,7 @@
     },
     {
       "name": "GraphQL Operator",
-      "scope": [
-        "keyword.operator.spread.graphql",
-        "keyword.operator.nulltype.graphql",
-        "meta.selectionset.graphql"
-      ],
+      "scope": ["keyword.operator.spread.graphql", "keyword.operator.nulltype.graphql", "meta.selectionset.graphql"],
       "settings": {
         "foreground": "#56B6C2"
       }
@@ -893,10 +878,7 @@
     },
     {
       "name": "C++ Keywords",
-      "scope": [
-        "punctuation.definition.directive.cpp",
-        "keyword.other.using.directive.cpp"
-      ],
+      "scope": ["punctuation.definition.directive.cpp", "keyword.other.using.directive.cpp"],
       "settings": {
         "foreground": "#C678DD"
       }
@@ -1005,20 +987,14 @@
     },
     {
       "name": "JSON Key",
-      "scope": [
-        "source.json meta.structure.dictionary.json",
-        "support.type.property-name.json"
-      ],
+      "scope": ["source.json meta.structure.dictionary.json", "support.type.property-name.json"],
       "settings": {
         "foreground": "#E06C75"
       }
     },
     {
       "name": "JSON key quote",
-      "scope": [
-        "punctuation.support.type.property-name.begin.json",
-        "punctuation.support.type.property-name.end.json"
-      ],
+      "scope": ["punctuation.support.type.property-name.begin.json", "punctuation.support.type.property-name.end.json"],
       "settings": {
         "foreground": "#E06C75"
       }
@@ -1047,30 +1023,21 @@
     },
     {
       "name": "Markdown - Plain",
-      "scope": [
-        "text.html.markdown",
-        "punctuation.definition.list_item.markdown"
-      ],
+      "scope": ["text.html.markdown", "punctuation.definition.list_item.markdown"],
       "settings": {
         "foreground": "#ABB2BF"
       }
     },
     {
       "name": "Markdown - Markup Raw Inline",
-      "scope": [
-        "text.html.markdown markup.inline.raw.string.markdown",
-        "markup.fenced_code.block.markdown"
-      ],
+      "scope": ["text.html.markdown markup.inline.raw.string.markdown", "markup.fenced_code.block.markdown"],
       "settings": {
         "foreground": "#98C379"
       }
     },
     {
       "name": "Markdown - Markup Raw Inline Punctuation",
-      "scope": [
-        "text.html.markdown punctuation.definition.raw.markdown",
-        "punctuation.definition.markdown"
-      ],
+      "scope": ["text.html.markdown punctuation.definition.raw.markdown", "punctuation.definition.markdown"],
       "settings": {
         "foreground": "#98C379"
       }
@@ -1097,11 +1064,7 @@
     },
     {
       "name": "Markup - Bold",
-      "scope": [
-        "markup.bold",
-        "markup.bold string",
-        "punctuation.definition.bold.markdown"
-      ],
+      "scope": ["markup.bold", "markup.bold string", "punctuation.definition.bold.markdown"],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#D19A66"
@@ -1146,20 +1109,14 @@
     },
     {
       "name": "Markdown - Link",
-      "scope": [
-        "string.other.link.title.markdown",
-        "string.other.link.description.markdown"
-      ],
+      "scope": ["string.other.link.title.markdown", "string.other.link.description.markdown"],
       "settings": {
         "foreground": "#61AFEF"
       }
     },
     {
       "name": "Markdown - Link Description",
-      "scope": [
-        "string.other.link.description.title.markdown",
-        "markup.underline.link.markdown"
-      ],
+      "scope": ["string.other.link.description.title.markdown", "markup.underline.link.markdown"],
       "settings": {
         "foreground": "#56B6C2"
       }
@@ -1178,19 +1135,14 @@
     },
     {
       "name": "Markdown - Image Description",
-      "scope": [
-        "string.other.link.description.markdown meta.image.inline.markdown"
-      ],
+      "scope": ["string.other.link.description.markdown meta.image.inline.markdown"],
       "settings": {
         "foreground": "#56B6C2"
       }
     },
     {
       "name": "Markdown - Image Link",
-      "scope": [
-        "markup.underline.link.image.markdown",
-        "constant.other.reference.link.markdown"
-      ],
+      "scope": ["markup.underline.link.image.markdown", "constant.other.reference.link.markdown"],
       "settings": {
         "foreground": "#56B6C2"
       }
@@ -1204,10 +1156,7 @@
     },
     {
       "name": "Markdown - List punctuation",
-      "scope": [
-        "beginning.punctuation.definition.list.markdown",
-        "punctuation.definition.list.begin.markdown"
-      ],
+      "scope": ["beginning.punctuation.definition.list.markdown", "punctuation.definition.list.begin.markdown"],
       "settings": {
         "foreground": "#E06C75"
       }
