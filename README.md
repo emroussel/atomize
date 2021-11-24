@@ -4,7 +4,7 @@
 
 A detailed and accurate Atom One Dark theme
 
-<img src="https://raw.githubusercontent.com/emroussel/atomize/master/images/screenshot.png" alt="Screenshot of VS Code with Atomize" />
+<img src="https://raw.githubusercontent.com/emroussel/atomize/main/images/screenshot.png" alt="Screenshot of VS Code with Atomize" />
 
 To get the icons in the screenshot above and an experience closer to Atom, check out my [Atom Icons theme](https://github.com/emroussel/atom-icons).
 
@@ -19,6 +19,8 @@ To get the icons in the screenshot above and an experience closer to Atom, check
 I have mostly used this theme with JavaScript and other web technologies.
 
 If you'd like me to add support for other languages, or notice a bug/discrepancy with Atom's One Dark theme, feel free to open an issue or pull request on this repo.
+
+When contributing changes, make sure that there is an example of those changes in a file in `/demo`. Files in that folder are used for manually testing syntax highlighting changes. It's not meant to be functional code (although it should be syntaxically correct) but instead to showcase different code patterns of languages supported by this theme. To make sure changes don't break existing highlighting, open and glance at these files in VS Code.
 
 ## Motivation
 

@@ -2,14 +2,14 @@
   "name": "atomize-atom-one-dark-theme",
   "displayName": "Atomize (Atom One Dark theme)",
   "description": "A detailed and accurate Atom One Dark Theme",
-  "version": "1.5.5",
+  "version": "2.0.0",
   "publisher": "emroussel",
   "icon": "images/icon.png",
   "author": {
     "name": "emroussel"
   },
   "engines": {
-    "vscode": "^1.12.0"
+    "vscode": "^1.48.0"
   },
   "categories": [
     "Themes"
@@ -35,17 +35,12 @@
     "theme": "dark"
   },
   "scripts": {
-    "fix": "prettier '**/*.{json,md,yml}' --write",
-    "lint": "prettier '**/*.{json,md,yml}' --check"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged",
-      "pre-push": "npm run lint"
-    }
+    "fix": "prettier '**/*.{js,jsx,ts,tsx,json,md,yml}' --write",
+    "lint": "prettier '**/*.{js,jsx,ts,tsx,json,md,yml}' --check",
+    "prepare": "husky install"
   },
   "lint-staged": {
-    "**/*.{json,md,yml}": "npm run fix"
+    "**/*.{js,jsx,ts,tsx,json,md,yml}": "npm run fix"
   },
   "bugs": {
     "url": "https://github.com/emroussel/atomize/issues"
@@ -54,11 +49,11 @@
     "type": "git",
     "url": "https://github.com/emroussel/atomize.git"
   },
-  "homepage": "https://github.com/emroussel/atomize/blob/master/README.md",
+  "homepage": "https://github.com/emroussel/atomize/blob/main/README.md",
   "devDependencies": {
-    "husky": "4.2.5",
-    "lint-staged": "10.2.11",
-    "prettier": "2.0.5"
+    "husky": "^7.0.0",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.4.1"
   },
   "__metadata": {
     "id": "b33f4b00-b7b4-4259-a263-eab2d86ac79b",

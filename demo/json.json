@@ -1,0 +1,12 @@
+{
+  "string": "string",
+  "number": 3,
+  "float": 3.1415926535,
+  "boolean": true,
+  "null": null,
+  "object": {
+    "key": "value",
+    "url": "https://github.com/emroussel/atomize"
+  },
+  "array": ["1", "2", "3"]
+}
