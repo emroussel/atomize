@@ -1,0 +1,98 @@
+@import "someFile";
+
+$map: (
+  "property": (
+    string: "string",
+    unit: 4px,
+  ),
+  10: 10,
+);
+
+@function functionName($param: "defaultValue") {
+  @return map-get($map, $param);
+}
+
+@mixin mobile {
+  @media (max-width: #{map-get($map, "property")}) {
+    @content;
+  }
+}
+
+$variable: rgba(#000000, 0.88);
+
+@debug true or false and false == true or (false and false);
+
+@keyframes slidein {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.text {
+  min-width: 23px;
+
+  strong {
+    color: red;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+@supports (display: grid) {
+  div.menu-bar {
+    li:hover > ul {
+      display: grid !important;
+    }
+
+    &:not(:last-of-type) {
+      border: 1px solid $variable;
+    }
+  }
+}
+
+/* This is a comment */
+// This is also a comment
+div[role="group"][title] {
+  flex: 1;
+  --some-color: #282c34;
+}
+
+@include mobile {
+  #header {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+}
+
+@media (min-width: 30em) and (orientation: landscape) {
+  #header:not(:nth-child(2)) {
+    margin-top: calc(2em + 4px * 2 - 100vh / 3 + 1.3rem - 8pc);
+    margin-bottom: 2px + 10px;
+  }
+}
+
+.image ~ img {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+:focus {
+  outline-color: var(--some-color);
+}
+
+@font-face {
+  font-family: "Open Sans", Arial, sans-serif;
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+    url(/fonts/OpenSans-Regular-webfont.woff) format("woff");
+}

@@ -1,0 +1,84 @@
+# Client facing
+
+fragment UserInfo on User {
+  id
+  alias: name
+  email
+}
+
+query GetUser($id: ID!, $teamId: ID!, $include: Boolean!) {
+  user(id: $id, filters: { team: { id: { equals: $teamId } } }, sort: { isActive: true }) {
+    ...UserInfo
+    maybe @include(if: $include) {
+      id
+    }
+  }
+}
+
+query {
+  user {
+    ...UserInfo
+  }
+}
+
+mutation EditUser($email: String = "newEmail") {
+  editUser(id: 123, name: "New name", email: $email) {
+    union {
+      ... on Union1 {
+        title
+      }
+      ... on Union2 {
+        name
+      }
+    }
+  }
+}
+
+# Schema definition
+
+interface User {
+  id: ID!
+  name: String!
+  email: String
+}
+
+enum Plan {
+  FREE
+  PRO
+  ENTERPRISE
+}
+
+scalar DateTime
+
+directive @deprecated(reason: String = "No longer supported") on FIELD_DEFINITION | ENUM_VALUE
+
+type SuperUser implements User {
+  createdAt: DateTime!
+  id: ID!
+  name: String!
+  email: String @deprecated(reason: "Some deprecation reason")
+  powers: [Power!]
+  plan: Plan
+}
+
+input NewTodoInput {
+  name: String!
+}
+
+union MyUnion = Union1 | Union2
+
+"""
+Documentation
+"""
+type Query {
+  superUser(id: ID!): SuperUser
+}
+
+type Mutation {
+  addSuperUser(userInput: UserInput!, plan: Plan = FREE): SuperUser!
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+}

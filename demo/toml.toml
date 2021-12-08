@@ -1,0 +1,33 @@
+string = "string"
+stringSingleQuote = 'string'
+number = 1
+float = 3.1415926535
+boolean = true
+date = 1979-05-27T07:32:00-08:00
+scientificNotation = 1e+12
+multiLineString = '''
+String with
+multiple lines
+'''
+
+[table]
+  key = "value"
+  url = "https://github.com/emroussel/atomize"
+
+[table.with.dots]
+  key = "value"
+
+array = ["1", "2", "3"]
+
+# This is a comment
+[[array-of-tables]]
+  key = "value"
+
+[[other-array-of-tables]]
+  key = "value"
+
+  [other-array-of-tables.table]
+    key = "value"
+
+  [[other-array-of-tables.tables]]
+    key = "value"

@@ -1,0 +1,64 @@
+@keyframes slidein {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+strong {
+  color: red;
+}
+
+.text {
+  min-width: 23px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+@supports (display: grid) {
+  div.menu-bar li:hover > ul {
+    display: grid !important;
+  }
+}
+
+#header {
+  animation-duration: 3s;
+  animation-name: slidein;
+  --some-color: #282c34;
+}
+
+/* This is a comment */
+div[role="group"][title] {
+  flex: 1;
+}
+
+@media (min-width: 30em) and (orientation: landscape) {
+  #header:not(:nth-child(2)) {
+    margin-top: calc(2em + 4px * 2 - 100vh / 3 + 1.3rem - 8pc);
+  }
+}
+
+.image ~ img {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+:focus {
+  outline-color: var(--some-color);
+}
+
+@font-face {
+  font-family: "Open Sans", Arial, sans-serif;
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+    url(/fonts/OpenSans-Regular-webfont.woff) format("woff");
+}
