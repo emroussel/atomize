@@ -12,16 +12,23 @@
 
 ###### H6
 
-_italics_ **bold** **bold combined with _italics_** _italics combined with **bold**_ ~~Strikethrough~~
+_italics_
+**bold**
+**bold combined with _italics_**
+_italics combined with **bold**_
+~~Strikethrough~~
 
 1. First
-2. Second ⋅⋅\* Unordered sub-list
-3. Third ⋅⋅1. Ordered sub-list
+2. Second
+   ⋅⋅\* Unordered sub-list
+3. Third
+   ⋅⋅1. Ordered sub-list
 4. Fourth
 
 ⋅⋅⋅Properly indented with list
 
-⋅⋅⋅Properly indented with list with linebreak⋅⋅ ⋅⋅⋅This line is separate, but within the same paragraph.⋅⋅
+⋅⋅⋅Properly indented with list with linebreak⋅⋅
+⋅⋅⋅This line is separate, but within the same paragraph.⋅⋅
 
 - Unordered
 
@@ -35,9 +42,11 @@ _italics_ **bold** **bold combined with _italics_** _italics combined with **bol
 
 Link as plain text: https://www.google.com
 
-Image: ![alt text](https://picsum.photos/200 "Title")
+Image:
+![alt text](https://picsum.photos/200 "Title")
 
-Code with `backticks` Code + link with [`backticks`](https://www.google.com)
+Code with `backticks`
+Code + link with [`backticks`](https://www.google.com)
 
 ```javascript
 // Code block with syntax highlighting

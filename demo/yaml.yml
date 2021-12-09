@@ -19,14 +19,17 @@ object:
 singleLineObject: { property: "" }
 "string/as/key": value
 key1: >
-  long string on multiple lines
-
+  long string
+  on multiple
+  lines
 key2: >-
-  long string on multiple lines
-
+  long string
+  on multiple
+  lines
 key3: >+
-  long string on multiple lines
-
+  long string
+  on multiple
+  lines
 key4: |
   long string
   on multiple
