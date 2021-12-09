@@ -35,13 +35,13 @@ _italics_ **bold** **bold combined with _italics_** _italics combined with **bol
 
 Link as plain text: https://www.google.com
 
-Image: ![alt text](https://picsum.photos/200 'Title')
+Image: ![alt text](https://picsum.photos/200 "Title")
 
 Code with `backticks` Code + link with [`backticks`](https://www.google.com)
 
 ```javascript
 // Code block with syntax highlighting
-const text = 'text';
+const text = "text";
 ```
 
 | Tables        |      Are      |   Cool |

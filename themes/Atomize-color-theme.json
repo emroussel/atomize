@@ -294,7 +294,13 @@
     },
     {
       "name": "Keyword",
-      "scope": ["keyword", "storage", "variable.language.super", "variable.language.this", "variable.language.special"],
+      "scope": [
+        "keyword",
+        "storage",
+        "variable.language.super",
+        "variable.language.this",
+        "variable.language.special"
+      ],
       "settings": {
         "foreground": "#C678DD"
       }
@@ -308,7 +314,12 @@
     },
     {
       "name": "Constant",
-      "scope": ["constant", "keyword.other.unit", "variable.other.constant", "variable.other.enummember"],
+      "scope": [
+        "constant",
+        "keyword.other.unit",
+        "variable.other.constant",
+        "variable.other.enummember"
+      ],
       "settings": {
         "foreground": "#D19A66"
       }
@@ -328,7 +339,11 @@
     },
     {
       "name": "Class",
-      "scope": ["entity.name.type", "entity.other.inherited-class", "support.class"],
+      "scope": [
+        "entity.name.type",
+        "entity.other.inherited-class",
+        "support.class"
+      ],
       "settings": {
         "foreground": "#E5C07B"
       }
@@ -374,7 +389,11 @@
     },
     {
       "name": "Ponctuation",
-      "scope": ["punctuation", "keyword.operator.type.annotation", "meta.brace"],
+      "scope": [
+        "punctuation",
+        "keyword.operator.type.annotation",
+        "meta.brace"
+      ],
       "settings": {
         "foreground": "#ABB2BF"
       }
@@ -397,7 +416,10 @@
     // C++
     {
       "name": "C++ Keywords",
-      "scope": ["punctuation.definition.directive.cpp", "keyword.other.using.directive.cpp"],
+      "scope": [
+        "punctuation.definition.directive.cpp",
+        "keyword.other.using.directive.cpp"
+      ],
       "settings": {
         "foreground": "#C678DD"
       }
@@ -454,14 +476,20 @@
     },
     {
       "name": "CSS/SASS id + class",
-      "scope": ["entity.other.attribute-name.class.css", "entity.other.attribute-name.id.css"],
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "entity.other.attribute-name.id.css"
+      ],
       "settings": {
         "foreground": "#E06C75"
       }
     },
     {
       "name": "CSS/SASS pseudo",
-      "scope": ["entity.other.attribute-name.pseudo-element.css", "entity.other.attribute-name.pseudo-class.css"],
+      "scope": [
+        "entity.other.attribute-name.pseudo-element.css",
+        "entity.other.attribute-name.pseudo-class.css"
+      ],
       "settings": {
         "foreground": "#E5C07B"
       }
@@ -524,7 +552,11 @@
     },
     {
       "name": "GraphQL operator",
-      "scope": ["punctuation.or.graphql", "keyword.operator.nulltype.graphql", "punctuation.assignment.graphql"],
+      "scope": [
+        "punctuation.or.graphql",
+        "keyword.operator.nulltype.graphql",
+        "punctuation.assignment.graphql"
+      ],
       "settings": {
         "foreground": "#56B6C2"
       }
@@ -547,7 +579,10 @@
     // JS/TS
     {
       "name": "JSX attribute",
-      "scope": ["entity.other.attribute-name.js", "entity.other.attribute-name.tsx"],
+      "scope": [
+        "entity.other.attribute-name.js",
+        "entity.other.attribute-name.tsx"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#D19A66"
@@ -629,7 +664,10 @@
     },
     {
       "name": "Markdown italic",
-      "scope": ["markup.italic.markdown", "punctuation.definition.italic.markdown"],
+      "scope": [
+        "markup.italic.markdown",
+        "punctuation.definition.italic.markdown"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#C678DD"
@@ -664,14 +702,20 @@
     },
     {
       "name": "Markdown blockquote",
-      "scope": ["markup.quote.markdown", "punctuation.definition.quote.begin.markdown"],
+      "scope": [
+        "markup.quote.markdown",
+        "punctuation.definition.quote.begin.markdown"
+      ],
       "settings": {
         "fontStyle": "italic"
       }
     },
     {
       "name": "Markdown links",
-      "scope": ["markup.underline.link.markdown", "markup.underline.link.image.markdown"],
+      "scope": [
+        "markup.underline.link.markdown",
+        "markup.underline.link.image.markdown"
+      ],
       "settings": {
         "foreground": "#56B6C2"
       }
@@ -723,7 +767,10 @@
     // SQL
     {
       "name": "SQL names",
-      "scope": ["constant.other.table-name.sql", "constant.other.database-name.sql"],
+      "scope": [
+        "constant.other.table-name.sql",
+        "constant.other.database-name.sql"
+      ],
       "settings": {
         "foreground": "#ABB2BF"
       }

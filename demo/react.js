@@ -1,5 +1,5 @@
-import React, { Component, useState } from 'react';
-import PropTypes from 'prop-types';
+import React, { Component, useState } from "react";
+import PropTypes from "prop-types";
 
 export const FunctionalComponent = React.memo((props) => {
   const { title } = props;

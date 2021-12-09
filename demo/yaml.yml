@@ -1,6 +1,6 @@
 ---
 # This is a comment
-string: 'string'
+string: "string"
 stringWithoutQuote: string
 number: 123
 float: 3.1415926535
@@ -13,11 +13,11 @@ list:
   - something
   - 1
   - something else
-singleLineList: [1, 2, 3, 'string']
+singleLineList: [1, 2, 3, "string"]
 object:
-  property: ''
-singleLineObject: { property: '' }
-'string/as/key': value
+  property: ""
+singleLineObject: { property: "" }
+"string/as/key": value
 key1: >
   long string on multiple lines
 
