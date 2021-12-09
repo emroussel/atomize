@@ -2,6 +2,12 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.0.0 (November 24, 2021)
+
+- Revamp syntax highlighting to be more generic and easier to maintain
+- Add demo folder with code examples to simplify manual testing
+- Drop support for VS Code versions below 1.48.0
+
 ## 1.5.5 (April 24, 2021)
 
 - Fix list drop color and remove other deprecated drop keys

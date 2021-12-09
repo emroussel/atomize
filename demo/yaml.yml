@@ -1,0 +1,41 @@
+---
+# This is a comment
+string: 'string'
+stringWithoutQuote: string
+number: 123
+float: 3.1415926535
+scientificNotation: 1e+12
+nan: .NAN
+boolean: true
+booleanAsOn: on
+empty: null
+list:
+  - something
+  - 1
+  - something else
+singleLineList: [1, 2, 3, 'string']
+object:
+  property: ''
+singleLineObject: { property: '' }
+'string/as/key': value
+key1: >
+  long string on multiple lines
+
+key2: >-
+  long string on multiple lines
+
+key3: >+
+  long string on multiple lines
+
+key4: |
+  long string
+  on multiple
+  lines
+key5: |-
+  long string
+  on multiple
+  lines
+key6: |+
+  long string
+  on multiple
+  lines

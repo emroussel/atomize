@@ -1,8 +1,12 @@
 {
   "name": "atomize-fork",
   "displayName": "Atomize Fork (Atom One Dark theme)",
-  "version": "1.0.2",
   "description": "A detailed and accurate Atom One Dark Theme",
+  "version": "2.1.0",
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.48.0"
+  },
   "categories": [
     "Themes"
   ],
@@ -25,11 +29,6 @@
     "name": "anpleenko"
   },
   "publisher": "anpleenko",
-  "scripts": {
-    "fix": "prettier '**/*.{json,md,yml}' --write",
-    "lint": "prettier '**/*.{json,md,yml}' --check",
-    "pre-commit": "lint-staged"
-  },
   "contributes": {
     "themes": [
       {
@@ -41,16 +40,20 @@
   },
   "devDependencies": {
     "husky": "^7.0.4",
-    "lint-staged": "11.2.6",
+    "lint-staged": "^12.1.2",
     "prettier": "2.4.1",
     "sort-package-json": "^1.52.0"
   },
-  "engines": {
-    "vscode": "^1.12.0"
-  },
-  "icon": "images/icon.png",
   "galleryBanner": {
     "color": "#282C34",
     "theme": "dark"
+  },
+  "scripts": {
+    "fix": "prettier '**/*.{js,jsx,ts,tsx,json,md,yml}' --write",
+    "lint": "prettier '**/*.{js,jsx,ts,tsx,json,md,yml}' --check",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "**/*.{js,jsx,ts,tsx,json,md,yml}": "npm run fix"
   }
 }
