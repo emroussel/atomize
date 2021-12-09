@@ -3,7 +3,11 @@
   "displayName": "Atomize Fork (Atom One Dark theme)",
   "description": "A detailed and accurate Atom One Dark Theme",
   "version": "2.1.0",
+  "publisher": "anpleenko",
   "icon": "images/icon.png",
+  "author": {
+    "name": "anpleenko"
+  },
   "engines": {
     "vscode": "^1.48.0"
   },
@@ -17,18 +21,6 @@
     "dark",
     "one dark"
   ],
-  "homepage": "https://github.com/anpleenko/atomize/blob/master/README.md",
-  "bugs": {
-    "url": "https://github.com/anpleenko/atomize/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/anpleenko/atomize.git"
-  },
-  "author": {
-    "name": "anpleenko"
-  },
-  "publisher": "anpleenko",
   "contributes": {
     "themes": [
       {
@@ -37,11 +29,6 @@
         "path": "./themes/Atomize-color-theme.json"
       }
     ]
-  },
-  "devDependencies": {
-    "husky": "^7.0.4",
-    "lint-staged": "^12.1.2",
-    "prettier": "2.4.1"
   },
   "galleryBanner": {
     "color": "#282C34",
@@ -54,5 +41,18 @@
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx,json,md,yml}": "npm run fix"
+  },
+  "bugs": {
+    "url": "https://github.com/anpleenko/atomize/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anpleenko/atomize.git"
+  },
+  "homepage": "https://github.com/anpleenko/atomize/blob/main/README.md",
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.4.1"
   }
 }
