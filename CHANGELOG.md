@@ -2,6 +2,10 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.0.1 (March 9, 2022)
+
+- Correct the scopes for CSS properties
+
 ## 2.0.0 (November 24, 2021)
 
 - Revamp syntax highlighting to be more generic and easier to maintain
