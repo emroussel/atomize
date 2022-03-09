@@ -35,6 +35,7 @@ button:disabled {
 #header {
   animation-duration: 3s;
   animation-name: slidein;
+  padding-inline: 8px;
   --some-color: #282c34;
 }
 
