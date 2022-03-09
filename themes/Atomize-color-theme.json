@@ -483,7 +483,7 @@
       "scope": [
         "support.type.map.key.scss",
         "entity.other.keyframe-offset.css",
-        "support.type.property-name.css",
+        "meta.property-name.css",
         "entity.other.attribute-name.scss",
         "support.type.property-name.media.css"
       ],
