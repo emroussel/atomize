@@ -2,6 +2,10 @@
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 2.0.2 (June 10, 2022)
+
+- Add bracket match theme colors
+
 ## 2.0.1 (March 9, 2022)
 
 - Correct the scopes for CSS properties
